@@ -18,7 +18,8 @@
 .hero h1 {
     font-family: var(--heading-font);
     font-weight: bold;
-    font-size: 96px;
+    font-size: 10vmin;
+    line-height: 128px;
     padding: 10px;
 }
 .hero h2 {
@@ -36,9 +37,41 @@
     font-weight: 500;
     font-size: 18px;
 }
-/*google fonts for font-families
-/*font-family: 'Roboto', sans-serif; = poppins 400/500/700
-/*font-family: 'Playfair Display', serif; = playfair display 700
-/*headings = playfair display 700
-/*paragraphs = poppins 400
-/*buttons = poppins 500
+.featured-projects {
+    font-family: var(--heading-font);
+    font-size: 18px;
+    line-height: 27px;
+}
+.project-description {
+    padding: 120px 60px;
+}
+.project-heading {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 6vmin;
+    line-height: 85px;
+}
+.project-content {
+    font-family: var(--paragraph-font);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.btn-outline {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 4px;
+    font-family: var(--paragraph-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+#project {
+    margin: 25px auto;
+}
+@media (max-width: 991px) {
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+}
