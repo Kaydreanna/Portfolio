@@ -75,3 +75,23 @@
         text-align: center;
     }
 }
+#about {
+    padding: 160px 20px;
+}
+#about h1 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 10vmin;
+}
+#about h2 {
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+#about p {
+    font: var(--paragraph-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
