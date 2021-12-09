@@ -1,3 +1,41 @@
+:root {
+    --heading-font: font-family: 'Playfair Display', serif;
+    --paragraph-font: font-family: 'Roboto', sans-serif;
+    --primary-color: #F9F7FE;
+    --secondary-color: #6C63FF;
+}
+.hero {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 160px 20px;
+}
+.hero h3 {
+    font-family: var(--paragraph-font);
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+.hero h1 {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    font-size: 96px;
+    padding: 10px;
+}
+.hero h2 {
+    font-family: var(--paragraph-font);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 10px 10px 25px 10px;
+}
+.btn-branding {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 4px;
+    font-family: var(--paragraph-font);
+    font-weight: 500;
+    font-size: 18px;
+}
 /*google fonts for font-families
 /*font-family: 'Roboto', sans-serif; = poppins 400/500/700
 /*font-family: 'Playfair Display', serif; = playfair display 700
