@@ -119,3 +119,11 @@
     line-height: 21px;
     color: #272142 70%;
 }
+.contact {
+    padding: 160px 20px;
+}
+.contact h1 {
+    font-family: var(--heading-font);
+    font-size: 64px;
+    line-height: 85px;
+}
