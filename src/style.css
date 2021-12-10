@@ -127,9 +127,13 @@
     font-size: 64px;
     line-height: 85px;
 }
-nav .active {
-    color: var(--secondary-color);
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(39, 33, 66, 0.7);
 }
-nav a:hover {
-    color: var(--secondary-color);
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--secondary-color);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: underline;
 }
