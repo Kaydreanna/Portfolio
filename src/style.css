@@ -108,6 +108,7 @@
     font-size: 64px;
     line-height: 85px;
     font-weight: 700;
+    margin: auto auto 100px auto;
 }
 .work h3 {
     text-align: center;
@@ -144,6 +145,7 @@
 #contact-me {
     background-color: var(--primary-color);
     padding: 50px 15px;
+    margin: 100px auto auto auto;
 }
 .contact-info {
     position: absolute;
