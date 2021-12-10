@@ -127,3 +127,9 @@
     font-size: 64px;
     line-height: 85px;
 }
+nav .active {
+    color: var(--secondary-color);
+}
+nav a:hover {
+    color: var(--secondary-color);
+}
